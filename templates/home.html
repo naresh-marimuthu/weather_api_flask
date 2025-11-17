@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Home Page</title>
+</head>
+<body>
+    <h1>Weather API Documentation</h1>
+    <p><b>Home EndPoint:</b> http://127.0.0.1:5000/</p>
+    <p><b>API EndPoint:</b> http://127.0.0.1:5000/api/v1/{STATIONID}/{DATE} </p>
+    <p><b>Example:</b> http://127.0.0.1:5000/api/v1/10/1989-12-01 </p>
+
+    <p><b>API EndPoint:</b> http://127.0.0.1:5000/api/v1/{STATIONID} </p>
+    <p><b>Example:</b> http://127.0.0.1:5000/api/v1/10</p>
+    <h3>List of stations </h3>
+    <p>{{ data|safe }}</p>
+</body>
+</html>
